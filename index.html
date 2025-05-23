@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tallinn Tourism</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="#home">Home</a></li>
+                <li class="nav-list-item"><a href="#about">About</a></li>
+                <li class="nav-list-item"><a href="#attractions">Things to do</a></li>
+                <li class="nav-list-item"><a href="#food">Food and Drinks</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1 class="hero-heading">Tallinn</h1>
+        <p class="hero-p">Discover the Magic of Tallinn</p>
+        <img class="hero-img" src="/hero-img.jpg" alt="Tallinn Panorama">
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="about-heading">About Tallinn</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <div class="about-img about-img-1" aria-label="Tallinn oldtown"></div>
+            </div>
+            <div class="about-card about-card-1">
+                <h3 class="about-card-heading">Medieval Meets Modern</h3>
+                <p class="about-card-p">Tallinn is one of Europe’s best-preserved medieval cities, where cobblestone
+                    streets and Gothic
+                    spires blend seamlessly with a thriving tech scene. Here, centuries-old charm lives side-by-side
+                    with innovation.</p>
+            </div>
+            <div class="about-card">
+            </div>
+            <div class="about-card about-card-2">
+                <h3 class="about-card-heading">Nature on Your Doorstep</h3>
+                <p class="about-card-p">Tallinn makes it easy to escape into nature—whether you're heading out for a
+                    hike, a bike ride, or a quiet moment by the sea. With forests, beaches, and national parks all close
+                    by, peace and fresh air are never far.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-img  about-img-2" aria-label="Tallinn oldtown"></div>
+            </div>
+            <div class="about-card"></div>
+            <div class="about-card about-card-3">
+                <h3 class="about-card-heading">Digital Capital of Europe</h3>
+                <p class="about-card-p">As the birthplace of Skype and a leader in e-governance, Tallinn is often called
+                    the “Silicon Valley of Europe.”</p>
+            </div>
+            <div class="about-card about-card-4">
+                <h3 class="about-card-heading">History Around Every Corner</h3>
+                <p class="about-card-p">From Hanseatic trade roots to Soviet-era stories, Tallinn's layered history is
+                    visible everywhere.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Attractions -->
+    <section id="attractions">
+        <h2 class="attractions-heading">Top Attractions</h2>
+        <div class="carousel-wrapper">
+            <button id="prev-btn">&#10094;</button>
+            <div class="carousel">
+                <div id="card-1" class="card active">
+                    <h3 class="card-heading">Tallinn Old Town</h3>
+                    <p class="card-p">A UNESCO World Heritage Site with cobblestone streets, medieval architecture, and cozy cafés.</p>
+                    <img class="card-img" src="attraction1.jpg" alt="Tallinn Old Town">
+                </div>
+
+                <div id="card-2" class="card">
+                    <h3 class="card-heading">Kumu Art Museum</h3>
+                    <p class="card-p">A living history village showcasing traditional Estonian rural life with historic farmsteads and folk culture.</p>
+                    <img class="card-img" src="attraction2.jpg" alt="Toompea Castle">
+                </div>
+
+                <div id="card-3" class="card">
+                    <h3 class="card-heading">Estonian Open Air Museum</h3>
+                    <p class="card-p">A striking Orthodox cathedral known for its ornate architecture and iconic onion domes. A
+                        must-see landmark in central Tallinn.</p>
+                    <img class="card-img" src="attraction3.jpg" alt="Alexander Nevsky Cathedral">
+                </div>
+            </div>
+            <button id="next-btn">&#10095;</button>
+        </div>
+    </section>
+
+
+    <!-- Food and Drinks -->
+    <section id="food">
+        <h2 class="food-heading">Some interesting Food and drinks</h2>
+        <div class="food-grid">
+            <div class="food-item">
+                <img class="food-img" src="food-1.jpeg" alt="Verivorst">
+                <h3>Verivorst</h3>
+                <p>Estonia’s signature blood sausage, served hot with sauerkraut and lingonberry jam during winter
+                    holidays.</p>
+            </div>
+            <div class="food-item">
+                <img class="food-img" src="food-2.jpg" alt="Kama">
+                <h3>Kama</h3>
+                <p>A traditional Estonian powder blend of roasted grains, typically mixed with kefir or yogurt for a
+                    healthy treat.</p>
+            </div>
+            <div class="food-item">
+                <img class="food-img" src="food-3.jpeg" alt="Kohuke">
+                <h3>Kohuke</h3>
+                <p>A creamy curd snack coated in chocolate, beloved by both kids and adults across Estonia.</p>
+            </div>
+            <div class="food-item">
+                <img class="food-img" src="food-4.png" alt="Kali">
+                <h3>Kali</h3>
+                <p>A slightly sweet, fermented drink made from rye bread, popular as a non-alcoholic beverage.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="contact-form">
+                <p>Curious about Tallinn or the site? Drop me a message!</p>
+                <form>
+                    <input class="form-input" type="email" placeholder="Your email address here">
+                    <div class="send-message">
+                        <textarea class="form-input message" placeholder="Write your message"></textarea>
+                        <button class="sumbit-btn" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="footer-right">
+                <p class="footer-p">Proudly made in Tallinn</p>
+                <div class="footer-right-icons">
+                    <a href="https://www.instagram.com/visittallinn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/tallinnofficial"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Tallinn Website</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
