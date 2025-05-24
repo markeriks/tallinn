@@ -1,6 +1,8 @@
 const card1 = document.getElementById('card-1')
 const card2 = document.getElementById('card-2')
 const card3 = document.getElementById('card-3')
+const menuButton = document.getElementById('menu-toggle')
+const navList = document.querySelector('.nav-list')
 
 let currentIndex = 0;
 
@@ -61,4 +63,8 @@ document.addEventListener('click', (e) => {
             currentIndex--
         }
     }
+})
+
+menuButton.addEventListener('click', () => {
+    navList.classList.toggle('nav-visible');
 })
